@@ -27,3 +27,87 @@ a{color:inherit;text-decoration:none}.skip-link{position:fixed;left:16px;top:16p
 @media(max-width:520px){.mobile-menu{grid-template-columns:1fr}.brand-logo-clean{width:132px}.nav{padding:8px 10px}.nav-cta{padding:11px 13px}.hero h1{font-size:42px}.lead{font-size:16px}.text-panel,.project-copy,.contact-panel,.bilingual,.rider-panel{padding:24px}.section-title h2,.project h2,.bilingual h2,.contact h2{font-size:32px}.hero-actions{flex-direction:column}.btn{width:100%}.contact-options{grid-template-columns:1fr}.floating-whatsapp{left:auto;right:14px;width:auto}.audio-toggle{left:14px;bottom:72px}.dossier-stack img{width:190px}.dossier-stack img:first-child{left:0}.dossier-stack img:last-child{right:0}.pdf-mosaic{height:380px}.pdf-mosaic img{width:185px}}
 
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.audio-toggle.is-playing .audio-icon,.reveal,.music-symbols span,.wind-lines i,.listen-panel:before,.bilingual:before,.booking-band:before,.rider-panel:before,.project-visual:before,.project-visual:after,.marquee-track,.sound-bars b,.equalizer i{animation:none!important;transition:none!important}.cursor-glow{display:none}.tilt:hover,.btn:hover,.nav-cta:hover{transform:none!important}}
+
+
+/* MOBILE POLISH 2026-06-12 */
+@media(max-width:760px){
+  body{background:linear-gradient(180deg,#F7FBFC 0%,#EAF3F6 48%,#fff 100%);padding-bottom:92px}
+  .grain{opacity:.08}
+  .nav{top:8px;width:calc(100% - 14px);gap:8px;padding:8px 9px;border-radius:22px;background:rgba(255,255,255,.92);border-color:rgba(0,16,48,.08);box-shadow:0 14px 45px rgba(0,16,48,.12);backdrop-filter:blur(18px)}
+  .brand{min-width:0;max-width:42vw;overflow:hidden}
+  .brand-logo-clean{width:132px;max-height:40px}
+  .menu-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 13px;background:rgba(144,192,208,.18)}
+  .nav-cta{padding:10px 12px;font-size:12px;min-height:42px}
+  .mobile-menu{left:0;right:0;top:calc(100% + 8px);grid-template-columns:1fr;border-radius:20px;padding:10px;max-height:calc(100vh - 92px);overflow:auto}
+  .mobile-menu a{padding:14px 15px;font-size:15px}
+  .hero{min-height:auto;padding:112px 16px 54px;display:block}
+  .hero-bg{background:linear-gradient(160deg,#F8FBFC 0%,#E4F1F5 52%,#9FCBDA 100%)}
+  .blue-field{right:-38%;top:-12%;width:120vw;height:120vw;opacity:.75}
+  .stage-photo{display:none}
+  .staff-lines{top:55%;opacity:.16}
+  .music-symbols span:nth-child(1){font-size:54px;left:5%;top:22%}
+  .music-symbols span:nth-child(2){font-size:38px;left:auto;right:8%;top:18%}
+  .music-symbols span:nth-child(3),.music-symbols span:nth-child(4){display:none}
+  .hero-copy{max-width:none}
+  .eyebrow{font-size:10px;letter-spacing:.14em;margin-bottom:12px}
+  .hero h1{font-size:clamp(42px,14vw,58px);line-height:.92;letter-spacing:-.07em}
+  .lead{font-size:16px;line-height:1.55;margin-top:18px}
+  .hero-actions{gap:10px;margin-top:24px}
+  .hero-actions .btn{width:100%;padding:14px 16px}
+  .trust-strip{gap:8px;margin-top:18px}
+  .trust-strip span{font-size:10px;padding:8px 10px;letter-spacing:.05em}
+  .hero-card{margin-top:26px;padding:18px;border-radius:24px}
+  .dossier-stack{height:270px;margin-bottom:18px}
+  .photo-stack img:first-child{width:220px;height:170px;left:0}
+  .photo-stack img:last-child{width:165px;height:230px;right:0;top:32px}
+  .hero-card h2{font-size:27px}
+  .sound-bars{height:40px}
+  .section{width:calc(100% - 28px);padding:56px 0}
+  .section-title h2,.project h2,.bilingual h2,.contact h2,.rider-copy h2,.quenas h2{font-size:clamp(30px,10vw,42px);line-height:.98;letter-spacing:-.055em}
+  .project-readable{padding-right:0}
+  .text-panel,.project-copy,.contact-panel,.bilingual,.rider-panel,.listen-panel,.quenas-panel,.agenda-feature{border-radius:24px;padding:22px}
+  .text-panel p,.project p,.bilingual p,.contact p,.listen p,.quenas p{font-size:15.5px;line-height:1.68}
+  .bio-panel img{min-height:260px}
+  .project-visual{min-height:330px;border-radius:24px}
+  .pdf-mosaic{height:290px;width:94%}
+  .pdf-mosaic img{width:155px;border-width:5px;border-radius:14px}
+  .stats{gap:12px;padding-top:12px}
+  .stat,.mini-card,.timeline-item,.format-card,.ideal-card,.proof-card,.quena-card{border-radius:22px;padding:22px;min-height:auto}
+  .stat strong{font-size:44px}
+  .listen{padding-top:46px}
+  .listen-panel{gap:22px}
+  .listen h2{font-size:clamp(32px,10vw,46px)}
+  .listen-visual{min-height:auto}
+  .album-card{width:100%;transform:none;border-radius:24px}
+  .format-grid,.ideal-grid,.proof-grid,.cards,.timeline-list{gap:12px;margin-top:28px}
+  .formats,.quenas,.agenda,.photo-gallery,.ideal,.proof{padding-top:52px}
+  .quenas-panel,.agenda-panel,.rider-panel{gap:18px}
+  .agenda-list{gap:12px}
+  .agenda-list article{padding:20px;border-radius:22px}
+  .gallery-grid{grid-auto-rows:auto;gap:12px;margin-top:28px}
+  .gallery-item{min-height:260px;border-radius:22px}
+  .gallery-item.large{min-height:320px}
+  .portrait-item img,.brand-photo img{padding:8px}
+  .rider-list{gap:10px}
+  .rider-list article{padding:18px;border-radius:20px}
+  .proof-card strong,.agenda-list strong,.timeline-item h3,.mini-card h3,.format-card h3,.ideal-card h3,.quena-card h3{font-size:20px}
+  .booking-band{width:calc(100% - 28px);margin-top:8px;padding:22px;border-radius:24px}
+  .booking-band strong{font-size:24px}
+  .contact-logo{width:min(220px,82%);border-radius:20px}
+  .contact-options{grid-template-columns:1fr;gap:10px}
+  .contact-chip{min-height:96px;border-radius:18px}
+  .footer{width:calc(100% - 28px);text-align:center;font-size:13px;padding-bottom:96px}
+  .floating-whatsapp{right:12px;bottom:12px;padding:13px 16px;min-width:118px}
+  .audio-toggle{left:12px;bottom:12px;padding:13px 14px}
+}
+@media(max-width:390px){
+  .brand-logo-clean{width:112px}
+  .nav-cta{display:none}
+  .hero{padding-top:104px}
+  .hero h1{font-size:40px}
+  .lead{font-size:15px}
+  .mobile-menu{top:calc(100% + 7px)}
+  .floating-whatsapp{min-width:104px;padding-inline:13px}
+  .audio-label{display:none}
+  .audio-toggle{width:50px;height:50px;padding:0;justify-content:center}
+}

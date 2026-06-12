@@ -74,3 +74,8 @@ El sitio incluye música de fondo en:
 - \ssets/audio/tu-silencio-fondo.mp3\`n
 Por políticas de navegador, el autoplay con sonido puede bloquearse. El sitio intenta iniciar la música y, si no puede, la activa al primer toque/click o desde el botón flotante \Música\.
 
+
+## Responsive mobile
+
+Se agregó una capa específica para celular en \styles.css\ con breakpoints en 760px y 390px. Ajusta nav, hero, cards, galería, CTA flotante de WhatsApp y control de audio.
+

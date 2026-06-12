@@ -147,3 +147,20 @@ Verificación:
 - Verificación pública: HTML/CSS/JS/audio respondieron 200; audio con MIME audio/mpeg.
 - Reporte: DEPLOY_REPORT.md
 
+
+## Responsive mobile — 2026-06-12 18:31 ART
+
+Se agregó una capa específica de responsive para celular al final de \styles.css\ bajo el marcador \MOBILE POLISH 2026-06-12\.
+
+Mejoras:
+- Nav compacto con logo, menú y CTA ajustados.
+- Hero adaptado a mobile, menos ruido visual y mejor lectura.
+- Cards/secciones con padding y radios optimizados.
+- Galería, rider, agenda, listen, quenas y proof en una columna.
+- CTA WhatsApp y botón de audio acomodados para no pisarse.
+- Breakpoint extra para pantallas chicas (<390px).
+
+Verificación local:
+- site_verify_report.json ok=true, mobileOk=true.
+- HTML/CSS/JS/audio respondieron 200 en servidor local.
+

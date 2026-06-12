@@ -3,6 +3,11 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "deployOk": true,
-  "refs": 21
+  "mobileOk": true,
+  "refs": 21,
+  "sizes": {
+    "html": 26454,
+    "css": 36359,
+    "js": 4837
+  }
 }
