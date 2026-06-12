@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Juan Ignacio Molina — Música andina, folklore argentino y contratación artística</title>
+  <meta name="description" content="Sitio artístico de Juan Ignacio Molina: compositor e intérprete catamarqueño para festivales, teatros, auditorios, eventos culturales y quenas profesionales." />
+  <meta name="theme-color" content="#001030" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Juan Ignacio Molina — Compositor e intérprete" />
+  <meta property="og:description" content="Folklore argentino, aerófonos andinos y música de raíz catamarqueña para escenarios culturales e institucionales." />
+  <meta property="og:image" content="./assets/photos/juan-ignacio-7340-web.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="grain"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <audio id="backgroundAudio" src="./assets/audio/tu-silencio-fondo.mp3" preload="metadata" loop></audio>
+  <button class="audio-toggle" id="audioToggle" type="button" aria-pressed="false" aria-label="Activar música de fondo">
+    <span class="audio-icon" aria-hidden="true">♪</span>
+    <span class="audio-label">Música</span>
+  </button>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Inicio Juan Ignacio Molina">
+      <img class="brand-logo-clean" src="./assets/logos/jim-logo-blue.png" alt="Juan Ignacio Molina" />
+    </a>
+    <nav class="nav-links" aria-label="Secciones">
+      <a href="#bio">Biografía</a>
+      <a href="#proyecto">Proyecto</a>
+      <a href="#escuchar">Escuchar</a>
+      <a href="#rider">Ficha técnica</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#galeria">Galería</a>
+      <a href="#trayectoria">Trayectoria</a>
+      <a href="#contacto">Contratación</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu">Menú</button>
+    <a class="nav-cta" href="./assets/Dossier-Juan-Ignacio-Molina.pdf" target="_blank" rel="noreferrer">Ver dossier</a>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#bio">Biografía</a>
+      <a href="#escuchar">Escuchar</a>
+      <a href="#rider">Ficha técnica</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#contacto">Contratación</a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blue-field"></div>
+        <div class="stage-photo photo-a"></div>
+        <div class="stage-photo photo-b"></div>
+        <div class="music-symbols" aria-hidden="true"><span>♪</span><span>♩</span><span>♬</span><span>𝄞</span></div>
+        <div class="wind-lines" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="staff-lines">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Compositor e intérprete · Catamarca, Argentina</p>
+        <h1>Juan Ignacio Molina</h1>
+        <p class="lead">Compositor e intérprete con más de 20 años de experiencia en festivales, teatros y auditorios; músico sesionista, director musical y productor dentro del ámbito artístico nacional.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://wa.me/5493834017942?text=Hola%20Juan%20Ignacio%2C%20quiero%20consultar%20por%20una%20presentaci%C3%B3n%20art%C3%ADstica" target="_blank" rel="noreferrer">Contratar presentación</a>
+          <a class="btn ghost" href="./assets/Dossier-Juan-Ignacio-Molina.pdf" target="_blank" rel="noreferrer">Descargar dossier</a>
+          <a class="btn soft" href="#escuchar">Escuchar obra</a>
+        </div>
+        <div class="trust-strip" aria-label="Perfil artístico resumido">
+          <span>Festivales</span><span>Teatros</span><span>Auditorios</span><span>Eventos culturales</span>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal delay-1" aria-label="Resumen artístico">
+        <div class="dossier-stack photo-stack">
+          <img src="./assets/photos/juan-ignacio-7340-web.jpg" alt="Juan Ignacio Molina en presentación en vivo" fetchpriority="high" decoding="async" />
+          <img src="./assets/photos/juan-ignacio-8845-web.jpg" alt="Retrato de Juan Ignacio Molina con instrumento" loading="lazy" decoding="async" />
+        </div>
+        <p class="card-kicker">Compositor e intérprete</p>
+        <h2>+20 años de trayectoria</h2>
+        <p>Festivales nacionales, giras europeas, producción musical, dirección escénica y una propuesta en vivo con equipo artístico-técnico integral.</p>
+        <div class="sound-bars" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
+      </aside>
+    </section>
+
+    <section class="section intro-grid" id="bio">
+      <div class="section-title reveal">
+        <p class="eyebrow">Biografía</p>
+        <h2>Biografía y formación musical.</h2>
+      </div>
+      <div class="text-panel bio-panel reveal delay-1">
+        <div>
+          <p>Nacido en Catamarca en 1987, desde los 7 años Juan Ignacio Molina encontró en los instrumentos aerófonos andinos un lenguaje propio. En 2004 fue invitado por Sergio Galleguillo a una grabación en vivo en La Rioja; en 2006 formó un dúo de flauta y guitarra con David Badja, grabó su primer disco y realizó una gira europea por Eslovenia, Francia, Alemania, Bélgica y España.</p>
+          <p>Es Licenciado en Flauta y Licenciado en Música Popular por la Universidad Nacional de Cuyo. Fue becado por la UNESP en São Paulo, por el Fondo Nacional de las Artes y por la UNSAM para formarse con el maestro Dino Saluzzi.</p>
+        </div>
+        <img src="./assets/photos/juan-ignacio-8845-web.jpg" alt="Juan Ignacio Molina con instrumento" loading="lazy" decoding="async" />
+      </div>
+    </section>
+
+    <section class="section project" id="proyecto">
+      <div class="project-copy reveal project-readable">
+        <p class="eyebrow">El proyecto</p>
+        <h2>Folklore argentino, mundo andino y texturas contemporáneas.</h2>
+        <p>La propuesta musical invita a un viaje por el altiplano catamarqueño: clásicos de la música argentina, nuevas versiones de danzas nativas, composiciones propias y una sonoridad potente que integra flautas, vientos originarios, voz y arreglos escénicos.</p>
+        <p>En vivo, el proyecto puede desplegarse con músicos, asistencia técnica, sonido, iluminación y proyección visual, construyendo una experiencia de escenario inmersiva y profesional.</p>
+      </div>
+      <div class="project-visual reveal delay-1" aria-hidden="true">
+        <div class="pdf-mosaic">
+          <img src="./assets/pdf-pages/page_02.png" alt="Biografía del dossier" loading="lazy" decoding="async" />
+          <img src="./assets/pdf-pages/page_05.png" alt="Dirección musical del dossier" loading="lazy" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats">
+      <article class="stat reveal tilt"><strong>20+</strong><span>años de experiencia</span></article>
+      <article class="stat reveal delay-1 tilt"><strong>5</strong><span>países en gira europea</span></article>
+      <article class="stat reveal delay-2 tilt"><strong>2013</strong><span>Consagración Festival del Poncho</span></article>
+      <article class="stat reveal delay-3 tilt"><strong>10</strong><span>personas para formato escénico completo</span></article>
+    </section>
+
+    <section class="section listen" id="escuchar">
+      <div class="listen-panel reveal">
+        <div class="listen-copy music-ornament light">
+          <p class="eyebrow">Escuchá su música</p>
+          <h2>Antes de contratar, dejá que la obra hable.</h2>
+          <p>Una propuesta atravesada por flautas, aerófonos andinos, folklore argentino y nuevas texturas. Material disponible para escuchar y compartir con programadores, productores y equipos culturales.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://audiomack.com/juan-ignacio-molina" target="_blank" rel="noreferrer">Escuchar en Audiomack</a>
+            <a class="btn ghost" href="https://www.youtube.com/@juanignaciomolinaoficial" target="_blank" rel="noreferrer">Ver canal oficial en YouTube</a>
+          </div>
+        </div>
+        <div class="listen-visual" aria-label="Portadas de álbumes de Juan Ignacio Molina">
+          <div class="album-card">
+            <img src="./assets/photos/taku-album-cover-web.jpg" alt="Portada del álbum TAKU de Juan Ignacio Molina" loading="lazy" decoding="async" />
+            <span>Álbum</span>
+            <strong>TAKU</strong>
+            <small>Juan Ignacio Molina</small>
+            <div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section formats" id="formatos">
+      <div class="section-title reveal music-title">
+        <p class="eyebrow">Formatos de presentación</p>
+        <h2>Opciones claras para cada escenario.</h2>
+      </div>
+      <div class="format-grid">
+        <article class="format-card reveal tilt"><span>01</span><h3>Formato solista</h3><p>Presentación íntima con flauta, aerófonos andinos, guitarra/charango y voz. Ideal para ciclos culturales, auditorios y eventos especiales.</p></article>
+        <article class="format-card reveal delay-1 tilt"><span>02</span><h3>Dúo o ensamble reducido</h3><p>Mayor riqueza armónica y rítmica, manteniendo una puesta flexible para teatros, salas y programaciones culturales.</p></article>
+        <article class="format-card reveal delay-2 tilt"><span>03</span><h3>Banda completa</h3><p>Experiencia escénica potente con músicos acompañantes, pensada para festivales, escenarios grandes y eventos con alta convocatoria.</p></article>
+        <article class="format-card reveal delay-3 tilt"><span>04</span><h3>Puesta integral</h3><p>Equipo artístico-técnico con sonido, iluminación, visuales, asistentes y coordinación para propuestas institucionales o festivales.</p></article>
+      </div>
+    </section>
+
+    <section class="section ideal" id="ideal">
+      <div class="section-title reveal music-title">
+        <p class="eyebrow">Ideal para programadores</p>
+        <h2>Una propuesta lista para escenarios culturales.</h2>
+      </div>
+      <div class="ideal-grid">
+        <article class="ideal-card reveal tilt"><span>01</span><h3>Festivales</h3><p>Formato adaptable para escenarios populares, fiestas provinciales y programaciones con identidad argentina y latinoamericana.</p></article>
+        <article class="ideal-card reveal delay-1 tilt"><span>02</span><h3>Teatros y auditorios</h3><p>Concierto cuidado, sensible y profesional para salas donde importan la escucha, la narrativa y la presencia escénica.</p></article>
+        <article class="ideal-card reveal delay-2 tilt"><span>03</span><h3>Eventos institucionales</h3><p>Propuesta sólida para gobiernos, universidades, embajadas, organismos culturales y celebraciones con raíz territorial.</p></article>
+        <article class="ideal-card reveal delay-3 tilt"><span>04</span><h3>Ciclos culturales</h3><p>Presentación flexible para espacios independientes, museos, centros culturales y encuentros de música de raíz.</p></article>
+      </div>
+    </section>
+
+    <section class="section rider" id="rider">
+      <div class="rider-panel reveal">
+        <div class="rider-copy">
+          <p class="eyebrow">Ficha de contratación</p>
+          <h2>Qué incluye la presentación.</h2>
+          <p>Una ficha clara para que productores y equipos técnicos entiendan rápido el alcance de la propuesta antes de consultar disponibilidad.</p>
+          <a class="btn primary" href="https://wa.me/5493834017942?text=Hola%20Juan%20Ignacio%2C%20quiero%20consultar%20por%20ficha%20t%C3%A9cnica%20y%20contrataci%C3%B3n" target="_blank" rel="noreferrer">Pedir ficha completa</a>
+        </div>
+        <div class="rider-list" aria-label="Ficha técnica resumida">
+          <article><b>Duración</b><span>Set adaptable según programación: concierto breve, show central o propuesta extendida.</span></article>
+          <article><b>Formatos</b><span>Solista, dúo/ensamble reducido, banda completa o puesta integral.</span></article>
+          <article><b>Repertorio</b><span>Folklore argentino, aerófonos andinos, composiciones propias y música de raíz catamarqueña.</span></article>
+          <article><b>Producción</b><span>Posibilidad de coordinación artística, sonido, iluminación, visuales y asistencia técnica.</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Instrumentos y lenguaje musical">
+      <div class="marquee-track">
+        <span>Flauta</span><i></i><span>Aerófonos andinos</span><i></i><span>Charango</span><i></i><span>Guitarra</span><i></i><span>Voz</span><i></i><span>Dirección musical</span><i></i><span>Producción escénica</span><i></i>
+        <span>Flauta</span><i></i><span>Aerófonos andinos</span><i></i><span>Charango</span><i></i><span>Guitarra</span><i></i><span>Voz</span><i></i><span>Dirección musical</span><i></i><span>Producción escénica</span><i></i>
+      </div>
+    </section>
+
+    <section class="section quenas" id="quenas">
+      <div class="quenas-panel reveal">
+        <div class="quenas-copy music-ornament">
+          <p class="eyebrow">Quenas profesionales</p>
+          <h2>Instrumentos fabricados y seleccionados por Juan Ignacio Molina.</h2>
+          <p>Un espacio pensado para músicos, estudiantes avanzados y amantes de los vientos andinos que buscan una quena confiable, afinada y lista para escenario o estudio.</p>
+          <p>Cada instrumento puede ser revisado bajo criterio musical profesional: afinación, respuesta, comodidad, timbre y terminación.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://wa.me/5493834017942?text=Hola%20Juan%20Ignacio%2C%20quiero%20consultar%20por%20quenas%20profesionales" target="_blank" rel="noreferrer">Consultar quenas disponibles</a>
+            <a class="btn ghost" href="#contacto">Ver contacto</a>
+          </div>
+        </div>
+        <div class="quena-cards" aria-label="Líneas de quenas profesionales">
+          <article class="quena-card tilt"><span>01</span><h3>Versión Bamboo</h3><p>Sonoridad noble, liviana y expresiva para estudio, ensayo y escenario.</p></article>
+          <article class="quena-card tilt"><span>02</span><h3>Versión Madera</h3><p>Mayor cuerpo tímbrico y presencia para intérpretes que buscan carácter.</p></article>
+          <article class="quena-card tilt"><span>03</span><h3>Selección Pro</h3><p>Instrumentos revisados por afinación, respuesta y comodidad interpretativa.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section agenda" id="agenda">
+      <div class="section-title reveal music-title">
+        <p class="eyebrow">Agenda</p>
+        <h2>Conciertos y próximas presentaciones.</h2>
+      </div>
+      <div class="agenda-panel reveal">
+        <div class="agenda-feature">
+          <span>Próximamente</span>
+          <h3>Fechas disponibles para programadores y productores culturales.</h3>
+          <p>Este espacio puede actualizarse con conciertos vigentes, próximas presentaciones, festivales, ciclos culturales y actividades especiales.</p>
+          <a class="btn primary" href="https://wa.me/5493834017942?text=Hola%20Juan%20Ignacio%2C%20quiero%20consultar%20por%20agenda%20de%20conciertos%20y%20presentaciones" target="_blank" rel="noreferrer">Consultar agenda</a>
+        </div>
+        <div class="agenda-list" aria-label="Listado de agenda">
+          <article><time>Fecha a confirmar</time><strong>Concierto / presentación</strong><small>Ciudad · Espacio cultural</small></article>
+          <article><time>Fecha a confirmar</time><strong>Festival / ciclo musical</strong><small>Formato solista, ensamble o banda completa</small></article>
+          <article><time>Agenda abierta</time><strong>Contrataciones 2026</strong><small>Festivales, teatros, auditorios y eventos institucionales</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section photo-gallery" id="galeria">
+      <div class="section-title reveal">
+        <p class="eyebrow">Galería</p>
+        <h2>Escenario, identidad y presencia artística.</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item large reveal tilt"><img src="./assets/photos/juan-ignacio-7340-web.jpg" alt="Juan Ignacio Molina tocando en vivo con músicos" loading="lazy" decoding="async" /><figcaption>Presentación en vivo</figcaption></figure>
+        <figure class="gallery-item reveal tilt"><img src="./assets/photos/juan-ignacio-7339-web.jpg" alt="Juan Ignacio Molina en evento institucional" loading="lazy" decoding="async" /><figcaption>Eventos institucionales</figcaption></figure>
+        <figure class="gallery-item portrait-item reveal tilt"><img src="./assets/photos/juan-ignacio-8845-web.jpg" alt="Retrato artístico de Juan Ignacio Molina" /><figcaption>Retrato artístico</figcaption></figure>
+        <figure class="gallery-item brand-photo reveal tilt"><img src="./assets/photos/juan-ignacio-7503-web.jpg" alt="Identidad TAKU Juan Ignacio Molina" loading="lazy" decoding="async" /><figcaption>Identidad musical</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section timeline" id="trayectoria">
+      <div class="section-title reveal">
+        <p class="eyebrow">Trayectoria</p>
+        <h2>Formación, escenarios y reconocimientos.</h2>
+      </div>
+      <div class="timeline-list">
+        <article class="timeline-item reveal tilt"><span>2003</span><h3>Premio Estímulo · Mención Especial</h3><p>Reconocimiento artístico en Catamarca.</p></article>
+        <article class="timeline-item reveal tilt"><span>2004</span><h3>Invitación de Sergio Galleguillo</h3><p>Grabación en vivo con Los Amigos en La Rioja.</p></article>
+        <article class="timeline-item reveal tilt"><span>2006</span><h3>Dúo flauta y guitarra</h3><p>Primer disco y gira europea por Eslovenia, Francia, Alemania, Bélgica y España.</p></article>
+        <article class="timeline-item reveal tilt"><span>2012</span><h3>UNCuyo + UNESP</h3><p>Licenciaturas en Flauta y Música Popular; beca de formación musical en São Paulo, Brasil.</p></article>
+        <article class="timeline-item reveal tilt"><span>2013</span><h3>Consagración Fiesta Nacional del Poncho</h3><p>Reconocimiento central en la escena cultural catamarqueña.</p></article>
+        <article class="timeline-item reveal tilt"><span>2013/14</span><h3>Dirección musical en Cosquín</h3><p>Dirección y producción musical de la delegación oficial de Catamarca.</p></article>
+        <article class="timeline-item reveal tilt"><span>2016</span><h3>Disco solista “Sólo”</h3><p>Folklore y música andina de Catamarca en formato solista.</p></article>
+        <article class="timeline-item reveal tilt"><span>2017</span><h3>Beca UNSAM · Dino Saluzzi</h3><p>Formación musical con uno de los grandes maestros argentinos.</p></article>
+      </div>
+    </section>
+
+    <section class="section disciplines">
+      <div class="section-title reveal">
+        <p class="eyebrow">Capacidades artísticas</p>
+        <h2>Un músico integral para escenarios exigentes.</h2>
+      </div>
+      <div class="cards">
+        <article class="mini-card reveal tilt"><h3>Interpretación</h3><p>Flauta, aerófonos andinos, charango, guitarra y voz.</p></article>
+        <article class="mini-card reveal delay-1 tilt"><h3>Composición</h3><p>Obra propia inspirada en Laguna Blanca, la infancia y la raíz andina.</p></article>
+        <article class="mini-card reveal delay-2 tilt"><h3>Dirección musical</h3><p>Coordinación artística, producción, logística y puesta en escena.</p></article>
+        <article class="mini-card reveal delay-3 tilt"><h3>Formato escénico</h3><p>Presentaciones con músicos, asistentes, sonido, iluminación y visuales.</p></article>
+      </div>
+    </section>
+
+    <section class="section proof" id="prensa">
+      <div class="section-title reveal">
+        <p class="eyebrow">Prensa y validación</p>
+        <h2>Credenciales claras para decidir la contratación.</h2>
+      </div>
+      <div class="proof-grid">
+        <article class="proof-card reveal tilt"><strong>Festival del Poncho</strong><span>Consagración 2013 en una de las celebraciones culturales más relevantes del NOA.</span></article>
+        <article class="proof-card reveal delay-1 tilt"><strong>Gira europea</strong><span>Presentaciones en Eslovenia, Francia, Alemania, Bélgica y España.</span></article>
+        <article class="proof-card reveal delay-2 tilt"><strong>Formación académica</strong><span>Licenciado en Flauta y Música Popular por la Universidad Nacional de Cuyo.</span></article>
+        <article class="proof-card reveal delay-3 tilt"><strong>Dirección musical</strong><span>Experiencia en producción, coordinación escénica y delegaciones oficiales.</span></article>
+      </div>
+      <p class="proof-note reveal">Cuando estén disponibles, este bloque puede sumar links de prensa, videos oficiales, Spotify y notas periodísticas.</p>
+    </section>
+
+    <section class="section bilingual">
+      <div class="reveal">
+        <p class="eyebrow">International profile</p>
+        <h2>Composer and performer from Catamarca, Argentina.</h2>
+      </div>
+      <p class="reveal delay-1">With over 20 years of experience in festivals, theaters and auditoriums, Juan Ignacio Molina blends Argentine folklore, Andean aerophones and contemporary influences into a powerful scenic journey through the highlands of Catamarca.</p>
+    </section>
+
+    <section class="booking-band" aria-label="Atajo de contratación">
+      <div>
+        <span>Contratación 2026</span>
+        <strong>Festivales, teatros, auditorios y eventos institucionales.</strong>
+      </div>
+      <a class="btn primary" href="https://wa.me/5493834017942?text=Hola%20Juan%20Ignacio%2C%20quiero%20consultar%20por%20contrataci%C3%B3n%202026" target="_blank" rel="noreferrer">Escribir por WhatsApp</a>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Contrataciones · festivales · teatros · auditorios</p>
+        <h2>Contrataciones y presentaciones artísticas.</h2>
+        <div class="contact-logo"><img src="./assets/logos/jim-logo-blue.png" alt="Logo Juan Ignacio Molina" loading="lazy" decoding="async" /></div>
+        <p>Formato solista o presentación ampliada con equipo artístico-técnico. Ideal para festivales, ciclos culturales, teatros, eventos institucionales y propuestas de música argentina/latinoamericana.</p>
+        <div class="contact-disclosure">
+          <button class="btn primary contact-toggle" type="button" aria-expanded="false" aria-controls="contactOptions">
+            Ver contactos
+            <span aria-hidden="true">+</span>
+          </button>
+          <div class="contact-options" id="contactOptions" hidden>
+            <a class="contact-chip" href="https://wa.me/5493834017942?text=Hola%20Juan%20Ignacio%2C%20quiero%20consultar%20por%20una%20presentaci%C3%B3n%20art%C3%ADstica" target="_blank" rel="noreferrer"><span class="chip-icon">☏</span><b>WhatsApp</b><small>3834017942</small></a>
+            <a class="contact-chip" href="tel:+543834017942"><span class="chip-icon">☎</span><b>Llamar</b><small>Contacto directo</small></a>
+            <a class="contact-chip" href="https://www.instagram.com/juanignacio.molina" target="_blank" rel="noreferrer"><span class="chip-icon">◎</span><b>Instagram</b><small>@juanignacio.molina</small></a>
+            <a class="contact-chip" href="https://www.facebook.com/search/top/?q=Juan%20Ignacio%20Molina" target="_blank" rel="noreferrer"><span class="chip-icon">f</span><b>Facebook</b><small>Juan Ignacio Molina</small></a>
+            <a class="contact-chip" href="./assets/Dossier-Juan-Ignacio-Molina.pdf" target="_blank" rel="noreferrer"><span class="chip-icon">♬</span><b>Dossier PDF</b><small>Ver / descargar</small></a>
+          </div>
+        </div>
+        <small>Los datos de contacto se despliegan solo cuando el visitante los necesita.</small>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-whatsapp" href="https://wa.me/5493834017942?text=Hola%20Juan%20Ignacio%2C%20quiero%20consultar%20por%20contrataci%C3%B3n" target="_blank" rel="noreferrer" aria-label="Consultar contratación por WhatsApp">Contratar</a>
+
+  <footer class="footer">
+    <img class="footer-logo" src="./assets/logos/jim-logo-blue.png" alt="Juan Ignacio Molina" loading="lazy" decoding="async" />
+    <span>Catamarca · Argentina · 3834017942</span>
+    <a href="https://www.instagram.com/juanignacio.molina" target="_blank" rel="noreferrer">Instagram</a>
+    <a href="./assets/Dossier-Juan-Ignacio-Molina.pdf" target="_blank" rel="noreferrer">Dossier artístico</a>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "Juan Ignacio Molina",
+    "description": "Compositor e intérprete catamarqueño de folklore argentino, aerófonos andinos y música de raíz.",
+    "foundingLocation": { "@type": "Place", "name": "Catamarca, Argentina" },
+    "genre": ["Folklore argentino", "Música andina", "Música popular argentina"],
+    "sameAs": [
+      "https://www.instagram.com/juanignacio.molina",
+      "https://audiomack.com/juan-ignacio-molina",
+      "https://www.youtube.com/@juanignaciomolinaoficial"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+54 9 383 4017942",
+      "contactType": "booking"
+    }
+  }
+  </script>
+  <script src="./script.js"></script>
+</body>
+</html>
