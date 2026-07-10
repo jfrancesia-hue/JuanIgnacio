@@ -24,7 +24,7 @@ O servir localmente con cualquier servidor estático.
 
 - WhatsApp / celular: `3834017942` (`+54 9 383 4017942` para `wa.me`).
 - Instagram: `https://www.instagram.com/juanignacio.molina`.
-- Audiomack: `https://audiomack.com/juan-ignacio-molina`.
+- Spotify / álbum TAKU: `https://open.spotify.com/intl-es/album/0opsH2yoNTuVeTZqnP6J1n?si=qCCWUBOqS5KlwJOGplmNGw`.
 - Facebook: link de búsqueda pública hasta confirmar URL exacta.
 - YouTube oficial: https://www.youtube.com/@juanignaciomolinaoficial.
 
